@@ -80,18 +80,20 @@ table {
     We set up <body> styles with default font and nice gradient in the background.
     And yes, there is a lot of repetition there because of -prefixes but we don't
     want to leave anybody behind.
+
+    Background Color Below
 */
 body {
     font-family: 'PT Sans', sans-serif;
     min-height: 740px;
 
-    background: rgb(215, 215, 215);
+    background: rgb(150, 215, 215);
     background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(240, 240, 240)), to(rgb(190, 190, 190)));
-    background: -webkit-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:    -moz-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:     -ms-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:      -o-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:         radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+    background: -webkit-radial-gradient(rgb(150, 240, 240), rgb(190, 190, 190));
+    background:    -moz-radial-gradient(rgb(150, 240, 240), rgb(190, 190, 190));
+    background:     -ms-radial-gradient(rgb(150, 240, 240), rgb(190, 190, 190));
+    background:      -o-radial-gradient(rgb(150, 240, 240), rgb(190, 190, 190));
+    background:         radial-gradient(rgb(150, 240, 240), rgb(190, 190, 190));
 }
 
 /*
